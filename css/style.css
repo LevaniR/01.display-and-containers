@@ -41,7 +41,7 @@ body {
     border-width: 4px;
 
 }
-.ThirdContainer div {
+.ThirdContainer .white {
 width: 206px;
 height: 120px;
 background-color: #FFFFFF;
@@ -52,7 +52,7 @@ border-width: 1px;
 display: flex;
 
 }
-.ThirdContainer span {
+.ThirdContainer .pink {
 width: 155px;
 height: 80px;
 font-size: 14px;
@@ -60,6 +60,10 @@ color: #FFFFFF;
 background-color: #ED1E79;
 margin: auto;
 text-align: center;
+
+}
+.ThirdContainer p {
+	padding: 32px;
 }
 .FourthContainer {
 width: 1125px;
@@ -78,7 +82,4 @@ font-size: 51px;
 text-align: center;
 display: block;
 text-transform: uppercase;
-}
-.ThirdContainer p {
-	margin-top: 35px;
 }
